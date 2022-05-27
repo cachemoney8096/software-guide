@@ -1,17 +1,3 @@
-# Welcome to MkDocs
+# Cache Money FRC Software/Code Guide
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+This website is intended to serve as a guide to getting started with the various software tools (such as Visual Studio Code) and programming knowledge (such as the WPILib Java library) that are required for *FIRST* Robotics Competition. While other tutorials exist, this guide may be specialized towards the tools and knowledge that are used on Cache Money.

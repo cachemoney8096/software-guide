@@ -1,4 +1,8 @@
-site_name: My Docs
+site_name: Software Guide
+
+repo_url: https://github.com/cachemoney8096/software-guide/
+site_url: https://cachemoney8096.github.io/software-guide/
+
 theme:
   name: material
   palette:
@@ -16,10 +20,12 @@ theme:
         name: Dark mode
       primary: teal
       accent: green
-extra_css:
-  - stylesheets/extra.css
-extra_javascript:
-  - javascripts/extra.js
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+
 extra:
   social:
     - icon: fontawesome/brands/twitter 
@@ -28,3 +34,10 @@ extra:
       link: https://www.instagram.com/cachemoney.8096/
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCfNN1j3l98wIVQFIbDQHCEw
+    - icon: fontawesome/brands/github
+      link: https://github.com/cachemoney8096
+
+nav:
+  - 'Software':
+    - 'Get Started': 'software/get-started.md'
+    - 'Installing Visual Studio Code': 'software/installing-vs-code.md'
